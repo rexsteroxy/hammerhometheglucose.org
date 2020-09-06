@@ -135,7 +135,8 @@
 							<div class="col-md-8">
 								<div class="home-content">
 									<h1>Become A Volunteer</h1>
-									<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p class="lead">Hammer Home The Glucose is run by a team of highly skilled, 
+                                    dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.</p>
 									<a href="#" class="primary-button">Join Us Now!</a>
 								</div>
 							</div>
@@ -170,7 +171,9 @@
 						<div class="footer-logo">
 							<a class="logo" href="#"><img src="./himg/logo.png" alt=""></a>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Hammer Home The Glucose is run by a team of highly skilled,
+                         dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.
+                          The team is headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator with other professionals serving as volunteers in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</p>
 						<ul class="footer-contact">
 							<li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
 							<li><i class="fa fa-phone"></i> 607-279-9246</li>
@@ -200,7 +203,7 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<h3 class="footer-title">Newsletter</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						<p>Subscribe To Our Monthly Newsletter And Events</p>
 						<form class="footer-newsletter">
 							<input class="input" type="email" placeholder="Enter your email">
 							<button class="primary-button">Subscribe</button>
@@ -226,18 +229,17 @@
 				<div class="col-md-6 col-md-push-6">
 					<ul class="footer-nav">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Causes</a></li>
-						<li><a href="#">Events</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
 						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+						
 					</ul>
 				</div>
 
 				<div class="col-md-6 col-md-pull-6">
 					<div class="footer-copyright">
 						<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>Hammer Home the Glucose ® | Built With <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://amadiaustin.me" target="_blank">Rexsteroxy</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
 					</div>
 				</div>

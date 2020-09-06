@@ -11,11 +11,18 @@
 				<!-- about content -->
 				<div class="col-md-5">
 					<div class="section-title">
-						<h2 class="title">Welcome to Charity</h2>
-						<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2 class="title">WELCOME TO OUR WEB PORTAL</h2>
+						<p class="">Hammer Home The Glucose® is a non-governmental body/agency that is located in Owerri, Imo State, Southeastern Nigeria.</p>
 					</div>
 					<div class="about-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p> 
+                        The agency is into free screening of diabetes and blood pressure especially people in remote
+                         areas where access to medical care is very limited. <br>
+Hammer Home The Glucose® has been into this for over five (5) years now and has visited many villages, market places, 
+towns and communities etc, to carry out its activities. Many lives have been touched in the process, especially people that 
+cannot afford to purchase insulin. <br>
+Hammer Home the Glucose® is founded and headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator, who has worked in Malta, New York, Canada and London England. He has also studied and obtained many degrees in different areas of discipline. In addition, Hammer Home the Glucose® has some health professionals and other well educated Nigerians who are highly spirited that are part of the Agency. These persons serve as volunteers in different areas such as dieticians,
+ nurse educators, physiotherapists, endocrinologists, and still expecting more concerned professionals to be involved</p>
 						<a href="#" class="primary-button">Read More</a>
 					</div>
 				</div>
@@ -47,8 +54,32 @@
 				<!-- section title -->
 				<div class="col-md-8 col-md-offset-2">
 					<div class="section-title text-center">
-						<h2 class="title">Our Causes</h2>
-						<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2 class="title">WHO WILL SEND US</h2>
+						<p class="">Hammer Home The Glucose is asking people to send us to different places in Nigeria to screen people 
+                        for diabetes and blood pressure and treat those who are already affected with diabetes. We are people committed to alleviating 
+                        the disease burden and offering a new hope to people affected and afflicted with diabetes. We are asking state governments to send 
+                        us, individuals, organisations, politicians and groups to send us to different locations and zones in Nigeria. <br>
+
+This is the time to send us, the havoc diabetes has caused and still causing in our society
+ demands the urgency of now because of the rise in disease burden. 
+ That is why we are asking you to send us to save a leg from getting amputated, 
+ send us to save an eye(s) from getting blind, send us to save a kidney from failing, 
+ send us to prevent a heart attack. Send us now to prevent someone from dying untimely. <br>
+
+
+There is no better and greater gift or love than saving a life from untimely death.
+ They are GOD’s children created equal with potentials to live,
+  to love and be loved like you and me. Hammer Home The Glucose is taking the lead by standing on the gap asking and pleading
+   that you send us to save souls from dying. The life we save today may be the person who will change the next generation to come.
+    Let your name be written in the sand of history that you made a difference. Let the generations to come appreciate that you save their
+     grandfather or grandmother for them to be begotten. Be part of this course and partner with us. Send us now for a good reason which 
+     will remain indelible in the sands of time. Posterity will remember that you have sent us today and GOD will bless your generation and
+      next to come. <br>
+
+Thank you <br><br>
+
+Nwaokoro Joakin Chidozie <br>
+President, Hammer Home The Glucose.</p>
 					</div>
 				</div>
 				<!-- section title -->
@@ -59,26 +90,18 @@
 				<!-- causes -->
 				<div class="col-md-4">
 					<div class="causes">
+                    <a href="single-cause.html" class="primary-button causes-donate">Who We Are?</a>
 						<div class="causes-img">
 							<a href="single-cause.html">
 								<img src="./himg/post-4.jpg" alt="">
 							</a>
 						</div>
-						<div class="causes-progress">
-							<div class="causes-progress-bar">
-								<div style="width: 64%;">
-									<span>64%</span>
-								</div>
-							</div>
-							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span>
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
-							</div>
-						</div>
 						<div class="causes-content">
-							<h3><a href="single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<a href="single-cause.html" class="primary-button causes-donate">Donate Now</a>
+							<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
+							<p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is totally committed to screening diabetics with the view of providing them with free insulin and other related drugs. These drugs are strictly provided to people with diabetes free of charge. This organization equally provides free diabetes education to the general public. Therefore, Hammer Home The Glucose® envisions a Nigeria where diabetics will not die due to lack of insulin or smacks of improper management
+
+.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -87,12 +110,13 @@
 				<!-- causes -->
 				<div class="col-md-4">
 					<div class="causes">
+                    <a href="single-cause.html" class="primary-button causes-donate">DIABETES EARLY DIAGNOSIS</a>
 						<div class="causes-img">
 							<a href="single-cause.html">
 								<img src="./himg/post-5.jpg" alt="">
 							</a>
 						</div>
-						<div class="causes-progress">
+						<!-- <div class="causes-progress">
 							<div class="causes-progress-bar">
 								<div style="width: 72%;">
 									<span>72%</span>
@@ -102,11 +126,11 @@
 								<span class="causes-raised">Raised: <strong>52.000$</strong></span>
 								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
 							</div>
-						</div>
+						</div> -->
 						<div class="causes-content">
-							<h3><a href="single-cause.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<a href="single-cause.html" class="primary-button causes-donate">Donate Now</a>
+							<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
+							<p>Do you know your glucose level? Are you from a family of people with diabetes? Are you over 35 years of age? Were you told that you have high blood sugar when you were pregnant? Do you suffer from frequent urination, frequent thirst, fatigue and sometimes blurry vision? Act now to avoid being diabetic!!! For free screening of diabetes,
+                             blood pressure and free distribution of insulin to people with diabetes, contact Hammer Home the Glucose® at the addresses on this site.</p>
 						</div>
 					</div>
 				</div>
@@ -115,26 +139,15 @@
 				<!-- causes -->
 				<div class="col-md-4">
 					<div class="causes">
+                    <a href="single-cause.html" class="primary-button causes-donate">OUR VISION</a>
 						<div class="causes-img">
 							<a href="single-cause.html">
 								<img src="./himg/post-6.jpg" alt="">
 							</a>
 						</div>
-						<div class="causes-progress">
-							<div class="causes-progress-bar">
-								<div style="width: 53%;">
-									<span>53%</span>
-								</div>
-							</div>
-							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span>
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
-							</div>
-						</div>
 						<div class="causes-content">
-							<h3><a href="single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<a href="single-cause.html" class="primary-button causes-donate">Donate Now</a>
+							<h4><a href="">Hammer Home the Glucose®</a></h4>
+							<p>Hammer Home the Glucose® envisions a Nigeria where diabetics will not die due to lack of insulin or smacks of improper management..</p>
 						</div>
 					</div>
 				</div>
@@ -162,9 +175,10 @@
 				<!-- cta content -->
 				<div class="col-md-offset-2 col-md-8">
 					<div class="cta-content text-center">
-						<h1>Become A Volunteer</h1>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="primary-button">Join Us Now!</a>
+						<h1>Meet Our Team</h1>
+						<p class="lead">Hammer Home The Glucose is run by a team of highly skilled, dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes. 
+                        The team is headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator with other professionals serving as volunteers in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists. For more..</p>
+						<a href="#" class="primary-button">Click Here!</a>
 					</div>
 				</div>
 				<!-- /cta content -->
@@ -187,7 +201,7 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="section-title text-center">
 						<h2 class="title">Our Blog</h2>
-						<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="sub-title">Our Program Updates And News</p>
 					</div>
 				</div>
 				<!-- /section title -->
