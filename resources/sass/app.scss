@@ -1,0 +1,315 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+/*
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+*/
+/*Green and red color on users - AdminPanel*/
+.green-dot{
+    .fa-circle{
+        color: green;
+    }
+}
+.red-dot{
+    .fa-circle{
+        color: red;
+    }
+}
+/*Input type file of forms*/
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .fileBtn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .imgDimension{
+      width: 200px;
+      padding: 20px;
+  }
+  .imgAlignment{
+      vertical-align: middle;
+      text-align: center;
+      padding: 10px;
+  }
+  .textAlignment{
+      text-align: center;
+  }
+  .indexImgDimension{
+      width: 120px;
+  }
+
+/*Admin panel operations padding*/
+a.icon-pad{
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+a.icon-pad:hover,a.icon-pad:focus{
+    color: grey;
+    transition: all 0.5s ease;
+}
+/*Headertag for the page*/
+.headingTag{
+    display: inline-block;
+}
+.addButtonAdminPanel{
+    margin-bottom: 10px;
+}
+/*No data to display(posts) message*/
+.perfectlyCenteredMessage {
+   position: relative;
+   height: 10em;
+}
+.perfectlyCenteredMessage p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.NoDataMessage{
+    margin-top: 20px;
+}
+/*Media Upload admin panel dropzone*/
+.dropzone{
+    border-radius: 10px;
+    border: 2px dashed grey!important;
+}
+/*Single blog display css*/
+/*Author photo on the blog show page - single blog*/
+.post-author-photo{
+    width: 80px;
+}
+/*Margin between blog title and author details*/
+.blog-margin{
+    margin-top: 20px;
+}
+/*For post authorname and post created date*/
+.grid-row{
+    display: grid;
+}
+.blogimage-margin{
+    margin : 10px 0px 20px 0px;
+}
+.blog-content p{
+    font-size: 1.2em;
+}
+.tag{
+    background-color: beige; /* Set the background color */
+    border-radius: 3px;     /* Add some roundness */
+    border: 1px #CCF solid; /* Add a border */
+    padding: 2px 5px;
+    display: inline;
+}
+.tag:hover{
+    background-color: bisque;
+}
+/*Comment section*/
+.responses{
+    background-color: rgb(240, 240, 240);
+}
+/*Single blog display css ends*/
+
+/*All blog posts display*/
+.blog-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 780px;
+    width: 100%;
+    height: 500px;
+}
+.blog-card {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 380px;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    transition: height 0.3s, box-shadow 0.3s;
+}
+.blog-card:hover {
+    opacity: 0.7;
+    height: 400px;
+    box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+}
+/*Card container for all the cards used to display blogs - blogposts.index,userposts.index*/
+.card-container{
+    border-collapse: collapse;
+    height: 100%;
+    position: relative;
+}
+.card-text-font{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.card-author{
+    color: rgba(102, 102, 100, 0.849);
+    font-weight: 600;
+    margin-left: 5px;
+}
+.card-date{
+    color: black;
+    font-weight: 600;
+}
+.card-details{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.icon-details{
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+.operation-icon{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+.operation-icon:hover,.operation-icon:focus{
+    box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+.save-icon-details{
+    text-align: right;
+    padding-right: 30px;
+    vertical-align: middle;
+    margin-top: 3%;
+}
+/*
+.card-author{
+    bottom: 0;
+    margin: 0px 0px 0px 20px;
+    font-weight: 600;
+    color: rgba(102, 102, 100, 0.849);
+    font-size: 16px;
+}
+.card-date{
+    bottom: 0;
+    margin-left: 20px;
+    color: black;
+    font-weight: 600;
+}*/
+.card-hr{
+    border-color: lightgrey;
+}
+a.blog-redirection-to-single:hover{
+    text-decoration: none;
+}
+
+/*User-commentbox-textarea*/
+.display-error{
+    margin: 10px 20px 0px 20px;
+}
+.comment-reply-container{
+    display:none;
+}
+/*Admin panel mass selection select option*/
+.massSelection{
+    padding-right: 10px;
+}
+/*Posts admin panel anchor tag*/
+a.title-redirect{
+    color: black;
+}
+a.title-redirect:hover,a.title-redirect:focus{
+    color:  rgba(102, 102, 100, 0.849);
+    transition: 0.5s delay ease;
+    text-decoration: none;
+}
+/*Container margin top to leave some space bertween navigation bar and the container*/
+.container-margin{
+    margin-top: 20px;
+}
+/*userpotsts.index dropdown option*/
+.posts-dropdown-container{
+    display: inline-block;
+}
+/*To display blog operations icons like edit,share,delete,favourite*/
+/*.overlay {
+    position: relative;
+    display: inline-block;
+}
+.overlay:hover .blog-icons{
+    display: block;
+    .operation-icon{
+        color: black;
+    }
+}
+.blog-icons{
+    padding-top: 7px;
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+*/
+/*
+.card-image {
+    position: absolute;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    height: 220px;
+    min-width: 100%;
+    transition: height 0.3s, opacity 0.3s;
+}
+.card-image.selected {
+    height: 410px;
+    opacity: 0.3;
+}
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    height: 130px;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    //width: 240px;
+  }
+.card-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .card-title {
+    font-family: Serif;
+  }
+  .card-author {
+    font-size: 14px;
+    color: #BAB096;
+    transition: color 0.3s;
+  }
+  .card-author.selected {
+    color: #6a6456;
+  }*/
+/*All blog posts display ends*/
