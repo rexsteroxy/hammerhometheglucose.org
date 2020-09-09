@@ -1,40 +1,335 @@
-@extends('layouts.app')
-@section('header-styles')
-    <link rel="stylesheet" href="{{ asset('css/commentBox.css') }}">
-@endsection
+@extends('layouts.singlehome')
+
 @section('content')
-<br>
-<div class="container">
-    <div class="page-header">
-        <hr>
-        <h3 class="headingTag"><b>Blog Post - </b></h3>
-        <button role="button" class="btn btn-dark addButtonAdminPanel" onclick="window.location='{{ route('blogposts.index') }}'">Go Back</button>
-        <hr>
-    </div>
-    <div class="blog-title">
-        <h1>{{$post->title}}</h1>
-    </div>
-    <div class="row blog-margin">
-        <div class="col-md-1">
-            <img alt="" src="{{$post->user->photo ? $post->user->photo->file : '/images/placeholder.png'}}" class="post-author-photo">
-        </div>
-        <div class="col-md-9">
-            <div class="grid-row"><b>{{ $post->user->name }}</b></div>
-            <div class="grid-row">
-                <b>{{ $post->created_at ? $post->created_at->toFormattedDateString() : 'Date unavailable'}} - <div class="tag"> {{$post->category->name }}</div></b>
-            </div>
-        </div>
-    </div>
-    <div class="blogimage-margin">
-        <img src="{{ $post->photo ? $post->photo->file : '/images/placeholder_blog.png'}}" class="img-fluid rounded" alt="Blog Image">
-    </div>
-    <div class="blog-content">
-        <p>{!! $post->body !!}</p>
-    </div>
-    <div class="tag"><b>{{$post->category->name }}<b></div><hr>
-</div>
-@endsection
-@section('responses')
+		<!-- /NAVGATION -->
+			<!-- Page Header -->
+			<div id="page-header">
+			<!-- section background -->
+			<div class="section-bg" style="background-image: url({{ asset('himg/background-2.jpg') }});"></div>
+			<!-- /section background -->
+
+			<!-- page header content -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-content">
+							<h1>{{$post->title}}</h1>
+							<ul class="breadcrumb">
+								<li><a href="/">Home</a></li>
+								<li><a href="/blogPage">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /page header content -->
+		</div>
+		<!-- /Page Header -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- MAIN -->
+				<main id="main" class="col-md-9">
+					<!-- article -->
+					<div class="article">
+						<!-- article img -->
+						<div class="article-img">
+							<img src="{{ $post->photo ? $post->photo->file : '/images/placeholder_blog.png'}}" alt="">
+						</div>
+						<!-- article img -->
+
+						<!-- article content -->
+						<div class="article-content">
+							<!-- article title -->
+							<h2 class="article-title">{{$post->title}}</h2>
+							<!-- /article title -->
+
+							<!-- article meta -->
+							<ul class="article-meta">
+								<li>{{ $post->created_at ? $post->created_at->toFormattedDateString() : 'Date unavailable'}}</li>
+								<li>By {{ $post->user->name }}</li>
+								<li>{{count($comments)}} Comments</li>
+							</ul>
+							<!-- /article meta -->
+                            <p>{!! $post->body !!}</p>
+    
+						</div>
+						<!-- /article content -->
+
+						<!-- article tags share -->
+						<div class="article-tags-share">
+							<!-- article tags -->
+							<ul class="tags">
+								<li>CATEGORY:</li>
+								<li><a href="#">{{$post->category->name }}</a></li>
+							
+							</ul>
+							<!-- /article tags -->
+
+							<!-- article share -->
+							<!-- <ul class="share">
+								<li>SHARE:</li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul> -->
+							<!-- /article share -->
+						</div>
+						<!-- /article tags share -->
+
+						<!-- article comments -->
+						<div class="article-comments">
+							<h3>Comments ({{count($comments)}})</h3>
+							<!-- comment -->
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="./img/avatar-1.jpg" alt="">
+								</div>
+								<div class="media-body">
+									<div class="media-heading">
+										<h4>Joe Doe</h4>
+										<span class="time">2 min ago</span>
+										<a href="#" class="reply">Reply</a>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+
+								<!-- comment -->
+								<div class="media">
+									<div class="media-left">
+										<img class="media-object" src="./img/avatar-2.jpg" alt="">
+									</div>
+									<div class="media-body">
+										<div class="media-heading">
+											<h4>Joe Doe</h4>
+											<span class="time">2 min ago</span>
+											<a href="#" class="reply">Reply</a>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</div>
+								</div>
+								<!-- /comment -->
+							</div>
+							<!-- /comment -->
+
+							<!-- comment -->
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="./img/avatar-1.jpg" alt="">
+								</div>
+								<div class="media-body">
+									<div class="media-heading">
+										<h4>Joe Doe</h4>
+										<span class="time">2 min ago</span>
+										<a href="#" class="reply">Reply</a>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+							<!-- /comment -->
+						</div>
+						<!-- /article comments -->
+
+						<!-- article reply form -->
+						<div class="article-reply">
+							<h3>Leave a reply</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<form>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="input" placeholder="Name" type="text">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="input" placeholder="Email" type="email">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="input" placeholder="Website" type="text">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea class="input" placeholder="Message"></textarea>
+										</div>
+										<button class="primary-button">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- /article reply form -->
+					</div>
+					<!-- /article -->
+				</main>
+				<!-- /MAIN -->
+
+				<!-- ASIDE -->
+				<aside id="aside" class="col-md-3">
+					<!-- category widget -->
+					<div class="widget">
+						<h3 class="widget-title">Category</h3>
+						<div class="widget-category">
+							<ul>
+								<li><a href="#">Health<span>(57)</span></a></li>
+								<li><a href="#">Food<span>(86)</span></a></li>
+								<li><a href="#">Education<span>(241)</span></a></li>
+								<li><a href="#">Donation<span>(65)</span></a></li>
+								<li><a href="#">Events<span>(14)</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /category widget -->
+
+					<!-- posts widget -->
+					<div class="widget">
+						<h3 class="widget-title">Latest Posts</h3>
+						<!-- single post -->
+						<div class="widget-post">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-1.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Possit nostro aeterno eu vis, ut cum quem reque
+								</div>
+							</a>
+							<ul class="article-meta">
+								<li>By John doe</li>
+								<li>12 November 2018</li>
+							</ul>
+						</div>
+						<!-- /single post -->
+
+						<!-- single post -->
+						<div class="widget-post">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-2.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Vix fuisset tibique facilisis cu. Justo accusata ius at
+								</div>
+							</a>
+							<ul class="article-meta">
+								<li>By John doe</li>
+								<li>12 November 2018</li>
+							</ul>
+						</div>
+						<!-- /single post -->
+
+						<!-- single post -->
+						<div class="widget-post">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-3.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Possit nostro aeterno eu vis, ut cum quem reque
+								</div>
+							</a>
+							<ul class="article-meta">
+								<li>By John doe</li>
+								<li>12 November 2018</li>
+							</ul>
+						</div>
+						<!-- /single post -->
+					</div>
+					<!-- /posts widget -->
+
+					<!-- causes widget -->
+					<div class="widget">
+						<h3 class="widget-title">Latest Causes</h3>
+
+						<!-- single causes -->
+						<div class="widget-causes">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-1.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Possit nostro aeterno eu vis, ut cum quem reque
+									<div class="causes-progress">
+										<div class="causes-progress-bar">
+											<div style="width: 64%;"></div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div>
+								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
+								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
+							</div>
+						</div>
+						<!-- /single causes -->
+
+						<!-- single causes -->
+						<div class="widget-causes">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-2.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Vix fuisset tibique facilisis cu. Justo accusata ius at
+									<div class="causes-progress">
+										<div class="causes-progress-bar">
+											<div style="width: 75%;"></div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div>
+								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
+								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
+							</div>
+						</div>
+						<!-- /single causes -->
+
+						<!-- single causes -->
+						<div class="widget-causes">
+							<a href="#">
+								<div class="widget-img">
+									<img src="./img/widget-3.jpg" alt="">
+								</div>
+								<div class="widget-content">
+									Possit nostro aeterno eu vis, ut cum quem reque
+									<div class="causes-progress">
+										<div class="causes-progress-bar">
+											<div style="width: 53%;"></div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div>
+								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
+								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
+							</div>
+						</div>
+						<!-- /single causes -->
+					</div>
+					<!-- causes widget -->
+				</aside>
+				<!-- /ASIDE -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+    @endsection
+
+    @section('responses')
     <div class="responses">
         <div class="container"><br><br>
             <h3><b>Responses</b></h3>

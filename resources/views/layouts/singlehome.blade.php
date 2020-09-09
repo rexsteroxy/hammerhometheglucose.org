@@ -35,9 +35,10 @@
 
 
 </head>
+
 <body>
 	<!-- HEADER -->
-	<header id="home">
+	<header>
 		<!-- NAVGATION -->
 		<nav id="main-navbar">
 			<div class="container">
@@ -75,71 +76,36 @@
 				<!-- Nav menu -->
 				<ul class="navbar-menu nav navbar-nav navbar-right">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About Us</a></li>
-					<li class="has-dropdown"><a href="#">Our Team</a></li>
-                    <li class="has-dropdown"><a href="#">Contact Us</a></li>
-					<li class="has-dropdown"><a href="#">Photo Gallery</a>
+					<li><a href="#">About</a></li>
+					<li class="has-dropdown"><a href="#">Causes</a>
+						<ul class="dropdown">
+							<li><a href="single-cause.html">Single Cause</a></li>
+						</ul>
+					</li>
+					<li class="has-dropdown"><a href="#">Events</a>
 						<ul class="dropdown">
 							<li><a href="single-event.html">Single event</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown"><a href="#">Blog</a>
 						<ul class="dropdown">
-							<li><a href="blog.html">Category</a></li>
-							<li><a href="single-blog.html">Category</a></li>
+							<li><a href="blog.html">Blog Page</a></li>
+							<li><a href="single-blog.html">Single Blog</a></li>
 						</ul>
 					</li>
-					@guest
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                        
-                            <li class="has-dropdown"><a>{{ Auth::user()->name }}</a>
-								<ul class="dropdown">
-									<li> @if (Auth::user()->checkRole() == "Admin")
-                                    <a class="dropdown-item" href="/admin">Admin Panel</a>
-                                    @endif
-									</li>
-									<li>
-											 <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-									</li>
-								</ul>
-                               
-                            </li>
-                        @endguest
-				
+					<li><a href="#">Contact</a></li>
 				</ul>
 				<!-- Nav menu -->
 			</div>
 		</nav>
-        <!-- /NAVGATION -->
-        @yield('content')
+	
+
+	@yield('content')
             @yield('responses')
 
-	</header>
-	<!-- /HEADER -->
 
 
-
-           
-
-  
-
-
-<!-- FOOTER -->
+		<!-- FOOTER -->
 <footer id="footer" class="section">
 		<!-- container -->
 		<div class="container">
@@ -149,7 +115,7 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<div class="footer-logo">
-							<a class="logo" href="#"><img src="./himg/logo.png" alt=""></a>
+							<a class="logo" href="#"><img src="{{ asset('./himg/logo.png') }}" alt=""></a>
 						</div>
 						<p>Hammer Home The Glucose is run by a team of highly skilled,
                          dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.
@@ -238,3 +204,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>Hammer
 	<script src="{{ asset('hjs/jquery.stellar.min.js') }}"></script>
 	<script src="{{ asset('hjs/main.js') }}"></script>
 </html>
+
