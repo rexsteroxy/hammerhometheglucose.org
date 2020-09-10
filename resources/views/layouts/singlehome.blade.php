@@ -31,7 +31,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Custom stlylesheet -->
-        <link type="text/css" rel="stylesheet" href="{{ asset('hcss/style.css') }}" />
+		<link type="text/css" rel="stylesheet" href="{{ asset('hcss/style.css') }}" />
+		 <!-- Scripts -->
+		 <script src="{{ asset('js/app.js') }}"></script>
+    <!-- Fonts -->
 
 
 </head>
@@ -203,5 +206,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>Hammer
 	<script src="{{ asset('hjs/owl.carousel.min.js') }}"></script>
 	<script src="{{ asset('hjs/jquery.stellar.min.js') }}"></script>
 	<script src="{{ asset('hjs/main.js') }}"></script>
+	<script src="{{ asset('js/script.js') }}"></script>
 </html>
 

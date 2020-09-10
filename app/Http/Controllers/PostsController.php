@@ -54,6 +54,9 @@ class PostsController extends Controller
      */
     public function show($slug)
     {
+
+        $posts = Post::paginate(12);
+
         //
         /*Finding the post*/
         $post = Post::findBySlugOrFail($slug);
@@ -61,7 +64,7 @@ class PostsController extends Controller
         $comments = Comment::where('post_id',$post->id)->get();
         /*Getting replies for each comment*/
         //$replies = CommentReply::where('comment_id',$comments['id'])->get();
-        return view('posts.show',compact('post','comments'));
+        return view('posts.show',compact('post','comments','posts'));
     }
 
     /**

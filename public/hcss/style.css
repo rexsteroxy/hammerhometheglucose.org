@@ -927,7 +927,8 @@ textarea.input {
 
 .article .article-img {
   overflow: hidden;
-  border-radius: 10px;
+  width: auto;
+  height: auto ;
 }
 
 .article .article-img a {
