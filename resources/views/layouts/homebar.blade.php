@@ -139,7 +139,7 @@
 								<div class="home-content">
 									<h1>Hammer Home The Glucose</h1>
 									<p class="lead">Providing Succor To The Helpless Diabetic Patients.</p>
-									<a href="#" class="primary-button">View Causes</a>
+									<a href="/blog" class="primary-button">View Our Blog</a>
 								</div>
 							</div>
 						</div>
@@ -164,7 +164,7 @@
 									<h1>Become A Volunteer</h1>
 									<p class="lead">Hammer Home The Glucose is run by a team of highly skilled, 
                                     dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.</p>
-									<a href="#" class="primary-button">Join Us Now!</a>
+									<a href="/contact" class="primary-button">Join Us Now!</a>
 								</div>
 							</div>
 						</div>
@@ -202,9 +202,9 @@
                          dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.
                           The team is headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator with other professionals serving as volunteers in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</p>
 						<ul class="footer-contact">
-							<li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
-							<li><i class="fa fa-phone"></i> 607-279-9246</li>
-							<li><i class="fa fa-envelope"></i> <a href="#">Charity@email.com</a></li>
+							<li><i class="fa fa-map-marker"></i>Address</li>
+							<li><i class="fa fa-phone"></i>PhoneNumber</li>
+							<li><i class="fa fa-envelope"></i> <a href="#">hammerhometheglucose@email.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -213,7 +213,7 @@
 				<!-- footer galery -->
 				<div class="col-md-4">
 					<div class="footer">
-						<h3 class="footer-title">Galery</h3>
+						<h3 class="footer-title">Gallary</h3>
 						<ul class="footer-galery">
 							<li><a href="#"><img src="./himg/galery-1.jpg" alt=""></a></li>
 							<li><a href="#"><img src="./himg/galery-2.jpg" alt=""></a></li>
@@ -255,10 +255,10 @@
 			<div id="footer-bottom" class="row">
 				<div class="col-md-6 col-md-push-6">
 					<ul class="footer-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/">About Us</a></li>
+						<li><a href="/contact">Contact Us</a></li>
+						<li><a href="/blog">Blog</a></li>
 						
 					</ul>
 				</div>

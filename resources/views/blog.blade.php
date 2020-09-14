@@ -70,7 +70,7 @@
 							<li>By {{ $post->user_id ? $post->user->name : 'Anonymous' }}</li>
 						
 						</ul>
-						<p>{!! $post->body !!}</p>
+						<!-- <p>{!! $post->body !!}</p> -->
 						<a class="primary-button" href="{{ route('blogposts.show',$post->slug) }}" >Read More</a>
 					</div>
 				</div>

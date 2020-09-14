@@ -31,8 +31,8 @@
 						spirited that are part of the Agency. These persons serve as volunteers in different areas such
 						as dieticians,
 						nurse educators, physiotherapists, endocrinologists, and still expecting more concerned
-						professionals to be involved</p>
-					<a href="#" class="primary-button">Read More</a>
+						professionals to be involved. </p>
+					<a href="/contact" class="primary-button">Contact Us</a>
 				</div>
 			</div>
 			<!-- /about content -->
@@ -211,7 +211,7 @@
 						The team is headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator with
 						other professionals serving as volunteers in different areas such as dieticians, nurses,
 						educators, physiotherapists, endocrinologists. For more..</p>
-					<a href="#" class="primary-button">Click Here!</a>
+					<a href="/team" class="primary-button">Click Here!</a>
 				</div>
 			</div>
 			<!-- /cta content -->
@@ -255,7 +255,7 @@
 							<li>By {{ $post->user_id ? $post->user->name : 'Anonymous' }}</li>
 						
 						</ul>
-						<p>{!! $post->body !!}</p>
+						<!-- <p>{!! $post->body !!}</p> -->
 						<a class="primary-button" href="{{ route('blogposts.show',$post->slug) }}" >Read More</a>
 					</div>
 				</div>
