@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Post;
 
 use Illuminate\Http\Request;
 
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -25,4 +26,35 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+    public function showAbout()
+    {
+        return view('about');
+    }
+
+    public function showBlog()
+    {
+        $posts = Post::orderBy('created_at', 'DESC')->paginate(3);
+        return view('blog',compact('posts'));
+    }
+
+    public function showOurTeam()
+    {
+        return view('teams');
+    }
+
+
+    public function showImages(){
+        
+        return view("gallary");
+    }
+
+
+    public function showContact()
+    {
+        return view('contactus');
+    }
+
+   
 }

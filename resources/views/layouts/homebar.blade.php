@@ -44,7 +44,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="index.html"><img src="himg/logo.png" alt="logo"></a>
+						<a class="logo" href="/"><img src="himg/logo.png" alt="logo"></a>
 					</div>
 					<!-- Logo -->
 
@@ -74,20 +74,16 @@
 
 				<!-- Nav menu -->
 				<ul class="navbar-menu nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About Us</a></li>
-					<li class="has-dropdown"><a href="#">Our Team</a></li>
-                    <li class="has-dropdown"><a href="#">Contact Us</a></li>
-					<li class="has-dropdown"><a href="#">Photo Gallery</a>
-						<ul class="dropdown">
-							<li><a href="single-event.html">Single event</a></li>
-						</ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/team">Our Team</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+					<li><a href="/pictures">Photo Gallery</a>
 					</li>
-					<li class="has-dropdown"><a href="#">Blog</a>
-						<ul class="dropdown">
+					<li><a href="/blog">Blog</a>
+						<!-- <ul class="dropdown">
 							<li><a href="blog.html">Category</a></li>
 							<li><a href="single-blog.html">Category</a></li>
-						</ul>
+						</ul> -->
 					</li>
 					@guest
                             <li class="nav-item"> 

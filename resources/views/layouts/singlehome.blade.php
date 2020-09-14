@@ -78,25 +78,49 @@
 
 				<!-- Nav menu -->
 				<ul class="navbar-menu nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li class="has-dropdown"><a href="#">Causes</a>
-						<ul class="dropdown">
-							<li><a href="single-cause.html">Single Cause</a></li>
-						</ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/team">Our Team</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+					<li><a href="/pictures">Photo Gallery</a>
 					</li>
-					<li class="has-dropdown"><a href="#">Events</a>
-						<ul class="dropdown">
-							<li><a href="single-event.html">Single event</a></li>
-						</ul>
+					<li><a href="/blog">Blog</a>
+						<!-- <ul class="dropdown">
+							<li><a href="blog.html">Category</a></li>
+							<li><a href="single-blog.html">Category</a></li>
+						</ul> -->
 					</li>
-					<li class="has-dropdown"><a href="#">Blog</a>
-						<ul class="dropdown">
-							<li><a href="blog.html">Blog Page</a></li>
-							<li><a href="single-blog.html">Single Blog</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Contact</a></li>
+					@guest
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                        
+                            <li class="has-dropdown"><a>{{ Auth::user()->name }}</a>
+								<ul class="dropdown">
+									<li> @if (Auth::user()->checkRole() == "Admin")
+                                    <a class="dropdown-item" href="/admin">Admin Panel</a>
+                                    @endif
+									</li>
+									<li>
+											 <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+									</li>
+								</ul>
+                               
+                            </li>
+                        @endguest
+				
 				</ul>
 				<!-- Nav menu -->
 			</div>

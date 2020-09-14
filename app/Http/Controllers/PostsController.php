@@ -21,7 +21,7 @@ class PostsController extends Controller
         // return view('posts.index',compact('posts'));
 
 
-        $posts = Post::paginate(12);
+        $posts = Post::orderBy('created_at', 'DESC')->paginate(3);
         return view('home',compact('posts'));
     }
 

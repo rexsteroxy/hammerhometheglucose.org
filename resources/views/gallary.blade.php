@@ -18,10 +18,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="header-content">
-							<h1>OUR TEAM</h1>
+							<h1>PHOTO GALLARY</h1>
 							<ul class="breadcrumb">
 								<li><a href="/">Home</a></li>
-								<li><a href="/team">Team</a></li>
+								<li><a href="/team">GALLARY</a></li>
 							</ul>
 						</div>
 					</div>

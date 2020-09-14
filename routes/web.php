@@ -55,3 +55,13 @@ Route::group(['middleware' => 'auth'],function(){
     /*User Profile Settings*/
     Route::resource('user', 'UserProfileController');
 }); 
+
+
+
+//Routes For Pages  
+Route::get('/about','HomeController@showAbout');
+Route::get('/contact','HomeController@showContact');
+Route::get('/team','HomeController@showOurTeam');
+Route::get('/gallary','HomeController@showGallary');
+Route::get('/blog','HomeController@showBlog');
+Route::get('/pictures','HomeController@showImages');
