@@ -136,7 +136,7 @@
 					<a href="single-cause.html" class="primary-button causes-donate">DIABETES EARLY DIAGNOSIS</a>
 					<div class="causes-img">
 						<a href="single-cause.html">
-							<img src="./himg/post-5.jpg" alt="">
+							<img src="./himg/post-5.png" alt="">
 						</a>
 					</div>
 					<!-- <div class="causes-progress">
@@ -193,7 +193,7 @@
 <!-- CTA -->
 <div id="cta" class="section">
 	<!-- background section -->
-	<div class="section-bg" style="background-image: url(./himg/background-1.jpg);" data-stellar-background-ratio="0.5">
+	<div class="section-bg" style="background-image: url(./himg/team.jpg);" data-stellar-background-ratio="0.5">
 	</div>
 	<!-- /background section -->
 

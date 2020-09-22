@@ -161,12 +161,12 @@
 					<div class="footer">
 						<h3 class="footer-title">Galery</h3>
 						<ul class="footer-galery">
-							<li><a href="#"><img src="{{ asset('./himg/galery-1.jpg') }}" alt=""></a></li>
-							<li><a href="#"><img src="{{ asset('./himg/galery-2.jpg') }}" alt=""></a></li>
-							<li><a href="#"><img src="{{ asset('./himg/galery-3.jpg') }}" alt=""></a></li>
-							<li><a href="#"><img src="{{ asset('./himg/galery-4.jpg') }}" alt=""></a></li>
-							<li><a href="#"><img src="{{ asset('./himg/galery-5.jpg') }}" alt=""></a></li>
-							<li><a href="#"><img src="{{ asset('./himg/galery-6.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/rev_sister.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/post-5.png') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/medical_oreach001.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/team.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/our_team.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/training2.jpg') }}" alt=""></a></li>
 						</ul>
 					</div>
 				</div>

@@ -45,14 +45,10 @@
 				<div class="causes">
 					<div class="causes-img">
 						<a href="single-cause.html">
-							<img src="./himg/post-4.jpg" alt="">
+							<img src="./himg/DF 6.jpg" alt="">
 						</a>
 					</div>
-					<div class="causes-content">
-						<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-						<p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-					</div>
+					
 				</div>
 			</div>
 			<!-- /causes -->
@@ -62,25 +58,11 @@
 				<div class="causes">
 					<div class="causes-img">
 						<a href="single-cause.html">
-							<img src="./himg/post-5.jpg" alt="">
+							<img src="./himg/DF 7.jpg" alt="">
 						</a>
 					</div>
-					<!-- <div class="causes-progress">
-							<div class="causes-progress-bar">
-								<div style="width: 72%;">
-									<span>72%</span>
-								</div>
-							</div>
-							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span>
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
-							</div>
-						</div> -->
-                        <div class="causes-content">
-						<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-						<p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-					</div>
+					
+                    
 				</div>
 			</div>
 			<!-- /causes -->
@@ -90,14 +72,10 @@
 				<div class="causes">
 					<div class="causes-img">
 						<a href="single-cause.html">
-							<img src="./himg/post-6.jpg" alt="">
+							<img src="./himg/DF 8.jpg" alt="">
 						</a>
 					</div>
-					<div class="causes-content">
-						<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-						<p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-					</div>
+					
 				</div>
 			</div>
     
@@ -111,14 +89,10 @@
               <div class="causes">
                   <div class="causes-img">
                       <a href="single-cause.html">
-                          <img src="./himg/post-4.jpg" alt="">
+                          <img src="./himg/DF 9.jpg" alt="">
                       </a>
                   </div>
-                  <div class="causes-content">
-                      <h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-                      <p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-                  </div>
+                 
               </div>
           </div>
           <!-- /causes -->
@@ -128,25 +102,10 @@
               <div class="causes">
                   <div class="causes-img">
                       <a href="single-cause.html">
-                          <img src="./himg/post-5.jpg" alt="">
+                          <img src="./himg/DF 9_small.jpg" alt="">
                       </a>
                   </div>
-                  <!-- <div class="causes-progress">
-                          <div class="causes-progress-bar">
-                              <div style="width: 72%;">
-                                  <span>72%</span>
-                              </div>
-                          </div>
-                          <div>
-                              <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                              <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                          </div>
-                      </div> -->
-                      <div class="causes-content">
-                      <h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-                      <p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-                  </div>
+                 
               </div>
           </div>
           <!-- /causes -->
@@ -156,16 +115,60 @@
               <div class="causes">
                   <div class="causes-img">
                       <a href="single-cause.html">
-                          <img src="./himg/post-6.jpg" alt="">
+                          <img src="./himg/DF 9_small.jpg" alt="">
                       </a>
                   </div>
-                  <div class="causes-content">
-                      <h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-                      <p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is</p>
-
-                  </div>
+                 
               </div>
           </div>
+  
+
+  </div>
+
+
+  <div class="row">
+
+
+  <br><br><br><br>
+
+          <!-- causes -->
+          <div class="col-md-4">
+              <div class="causes">
+                  <div class="causes-img">
+                      <a href="single-cause.html">
+                          <img src="./himg/DF 10.jpg" alt="">
+                      </a>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /causes -->
+
+          <!-- causes -->
+          <div class="col-md-4">
+              <div class="causes">
+                  <div class="causes-img">
+                      <a href="single-cause.html">
+                          <img src="./himg/diabetic foot.jpg" alt="">
+                      </a>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /causes -->
+
+          <!-- causes -->
+          <div class="col-md-4">
+              <div class="causes">
+                  <div class="causes-img">
+                      <a href="single-cause.html">
+                          <img src="./himg/diagnosis.jpg" alt="">
+                      </a>
+                  </div>
+                 
+              </div>
+          </div>
+
   
   </div>
 

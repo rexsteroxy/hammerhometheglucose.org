@@ -78,12 +78,16 @@
 					<li><a href="/team">Our Team</a></li>
                     <li><a href="/contact">Contact Us</a></li>
 					<li><a href="/pictures">Photo Gallery</a>
+					<ul class="dropdown">
+							<li><a  class="dropdown-item" href="blog.html">Category</a></li>
+							<li><a  class="dropdown-item" href="single-blog.html">Category</a></li>
+						</ul>
 					</li>
-					<li><a href="/blog">Blog</a>
-						<!-- <ul class="dropdown">
-							<li><a href="blog.html">Category</a></li>
-							<li><a href="single-blog.html">Category</a></li>
-						</ul> -->
+					<li><a href="/blog">Education</a>
+						<ul class="dropdown">
+							<li><a  class="dropdown-item" href="blog.html">Category</a></li>
+							<li><a  class="dropdown-item" href="single-blog.html">Category</a></li>
+						</ul>
 					</li>
 					@guest
                             <li class="nav-item"> 
@@ -215,12 +219,12 @@
 					<div class="footer">
 						<h3 class="footer-title">Gallary</h3>
 						<ul class="footer-galery">
-							<li><a href="#"><img src="./himg/galery-1.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./himg/galery-2.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./himg/galery-3.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./himg/galery-4.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./himg/galery-5.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./himg/galery-6.jpg" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/rev_sister.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/post-5.png') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/medical_oreach001.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/team.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/our_team.jpg') }}" alt=""></a></li>
+							<li><a href="#"><img src="{{ asset('./himg/training2.jpg') }}" alt=""></a></li>
 						</ul>
 					</div>
 				</div>
