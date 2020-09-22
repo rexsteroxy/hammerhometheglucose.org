@@ -77,10 +77,10 @@
 					<li><a href="/">Home</a></li>
 					<li><a href="/team">Our Team</a></li>
                     <li><a href="/contact">Contact Us</a></li>
-					<li><a href="/pictures">Photo Gallery</a>
+					<li class="has-dropdown"><a href="#">Photo Gallery</a>
 					<ul class="dropdown">
-							<li><a  class="dropdown-item" href="blog.html">Category</a></li>
-							<li><a  class="dropdown-item" href="single-blog.html">Category</a></li>
+							<li><a  class="dropdown-item" href="/diabetic_pictures">Diabetic Foot Gallary</a></li>
+							<li><a  class="dropdown-item" href="/field_work">Field Work Gallary</a></li>
 						</ul>
 					</li>
 					<li><a href="/blog">Education</a>
@@ -89,6 +89,7 @@
 							<li><a  class="dropdown-item" href="single-blog.html">Category</a></li>
 						</ul>
 					</li>
+					
 					@guest
                             <li class="nav-item"> 
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>

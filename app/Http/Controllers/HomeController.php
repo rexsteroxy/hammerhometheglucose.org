@@ -45,9 +45,15 @@ class HomeController extends Controller
     }
 
 
-    public function showImages(){
+    public function showImagesOne(){
         
         return view("gallary");
+    }
+
+
+    public function showImagesTwo(){
+        
+        return view("fieldwork");
     }
 
 

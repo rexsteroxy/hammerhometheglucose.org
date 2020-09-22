@@ -64,4 +64,5 @@ Route::get('/contact','HomeController@showContact');
 Route::get('/team','HomeController@showOurTeam');
 Route::get('/gallary','HomeController@showGallary');
 Route::get('/blog','HomeController@showBlog');
-Route::get('/pictures','HomeController@showImages');
+Route::get('/diabetic_pictures','HomeController@showImagesOne');
+Route::get('/field_work','HomeController@showImagesTwo');
