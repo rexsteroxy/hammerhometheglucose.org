@@ -40,25 +40,34 @@
 
 		<br><br><br><br>
 
-		<div class="col-md-3"></div>
+		<div class="col-md-3">
+		@if (session('response') )
+                <div class="alert alert-success">
+                    {{ session('response') }}
+                </div>
+
+
+                @endif
+		</div>
 		<div class="col-md-6">
 
 
-			<form>
+		<form class="form-horizontal" method="POST" action="{{ route('store.contacts') }}">
+                        {{ csrf_field() }}
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control" name="email"
+					<input type="email" class="form-control" required name="email"
 						placeholder="Enter email">
 					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
 						else.</small>
 				</div>
 				<div class="form-group">
 					<label for="exampleInputPassword1">Full Name</label>
-					<input type="text" class="form-control" name="name" placeholder="Enter Full Name">
+					<input type="text" class="form-control" name="name" required placeholder="Enter Full Name">
 				</div>
 				<div class="form-group">
     <label>Message</label>
-    <textarea class="form-control" name="message" rows="3"></textarea>
+    <textarea class="form-control" name="message"  required rows="3"></textarea>
   </div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>

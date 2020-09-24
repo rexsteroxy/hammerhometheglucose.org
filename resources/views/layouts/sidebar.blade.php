@@ -30,6 +30,10 @@
                 </li>
                 <li>
                     <a href="{{route('comments.index')}}">Comments</a>
+
+                <li>
+                    <a href="{{route('contacts')}}">Contacts</a>
+                </li>
                 </li>
             </ul>
         </div>

@@ -110,9 +110,32 @@
     </div>
 </div>
 @else
-<div class="NoDataMessage">
-    <h2><b>No Categories to Show!!</b></h2>
+
+<div class="row">
+   
+    <div class="col-md-4">
+        {!! Form::open(['method' => 'POST','action'=>'AdminCategoriesController@store']) !!}
+            <div class="form-group">
+                {!! Form::label('name','Category Name:') !!}
+                {!! Form::text('name',null,['class' => 'form-control']) !!}
+            </div>
+            <div class="form-group col-md-3">
+                {!! Form::submit('Create',['class' => 'form-control btn btn-dark']) !!}
+            </div>
+        {!! Form::close() !!}
+   
+    </div>
+
+    <div class="col-md-8">
+        <div class="NoDataMessage">
+            <h2><b>No Categories to Show!!</b></h2>
+        </div>
+    </div>
+
 </div>
+
+
+
 @endif
 @include('layouts.messages')
 @endsection

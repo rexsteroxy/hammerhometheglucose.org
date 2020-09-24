@@ -66,3 +66,8 @@ Route::get('/gallary','HomeController@showGallary');
 Route::get('/blog','HomeController@showBlog');
 Route::get('/diabetic_pictures','HomeController@showImagesOne');
 Route::get('/field_work','HomeController@showImagesTwo');
+
+
+
+Route::get('/showAdmincontacts','ContactController@index')->name("contacts");
+Route::post('/showAdmincontacts','ContactController@store')->name("store.contacts");
