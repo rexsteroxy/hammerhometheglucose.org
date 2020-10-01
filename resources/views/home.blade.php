@@ -193,7 +193,7 @@
 <!-- CTA -->
 <div id="cta" class="section">
 	<!-- background section -->
-	<div class="section-bg" style="background-image: url(./himg/field/image_8.jpg);" data-stellar-background-ratio="0.5">
+	<div class="section-bg" style="background-image: url(./himg/image_8.jpg);" data-stellar-background-ratio="0.5">
 	</div>
 	<!-- /background section -->
 
