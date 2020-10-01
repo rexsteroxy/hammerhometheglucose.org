@@ -133,7 +133,7 @@
 			<!-- home item -->
 			<div class="home-item">
 				<!-- section background -->
-				<div class="section-bg" style="background-image: url(./himg/background-1.jpg);"></div>
+				<div class="section-bg" style="background-image: url(./himg/post-4.jpg);"></div>
 				<!-- /section background -->
 
 				<!-- home content -->
