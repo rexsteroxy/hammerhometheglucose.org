@@ -62,7 +62,7 @@
 							</ul>
 							<!-- /article meta -->
                             <p>{!! $post->body !!}</p>
-    
+
 						</div>
 						<!-- /article content -->
 
@@ -72,16 +72,16 @@
 							<ul class="tags">
 								<li>CATEGORY:</li>
 								<li><a href="#">{{$post->category->name }}</a></li>
-							
+
 							</ul>
 							<!-- /article tags -->
 
-							
+
 						</div>
 						<!-- /article tags share -->
 
-                           
-						
+
+
 					</div>
 					<!-- /article -->
 				</main>
@@ -111,17 +111,17 @@
                         <!-- single post -->
                         @foreach ($posts as $key => $post)
 						<div class="widget-post">
-							<a href="#">
+							<a href="{{ route('blogposts.show',$post->slug) }}">
 								<div class="widget-img">
-									<img src="./img/widget-1.jpg" alt="">
+								<img src="{{ $post->photo ? $post->photo->file : '/images/placeholder_blog.png'}}" alt="">
 								</div>
 								<div class="widget-content">
-									Possit nostro aeterno eu vis, ut cum quem reque
+								  {{$post->title}}
 								</div>
 							</a>
 							<ul class="article-meta">
-								<li>By John doe</li>
-								<li>12 November 2018</li>
+								<li>By {{$post->user->name }}</li>
+								<li>{{ $post->created_at ? $post->created_at->toFormattedDateString() : 'Date unavailable'}}</li>
 							</ul>
 						</div>
 						<!-- /single post -->
@@ -138,79 +138,32 @@
 			</div>
 			@endif
 
-					
+
 					</div>
 					<!-- /posts widget -->
 
 					<!-- causes widget -->
 					<div class="widget">
-						<h3 class="widget-title">Latest Causes</h3>
+						<h3 class="widget-title">Hammerhometheglucose</h3>
 
 						<!-- single causes -->
-						<div class="widget-causes">
-							<a href="#">
-								<div class="widget-img">
-									<img src="./img/widget-1.jpg" alt="">
-								</div>
-								<div class="widget-content">
-									Possit nostro aeterno eu vis, ut cum quem reque
-									<div class="causes-progress">
-										<div class="causes-progress-bar">
-											<div style="width: 64%;"></div>
-										</div>
-									</div>
-								</div>
-							</a>
+						<div>
+
 							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
+							<ul>
+							    <li> <a href="/">Home</a> </li><br>
+								<li> <a href="/">About Us</a></li><br>
+								<li> <a href="/contact">Contact</a> </li><br>
+								<li> <a href="/field_work">Gallary</a></li><br>
+								<li> <a href="/blog">Education</a> </li><br>
+							</ul>
+
+
 							</div>
 						</div>
 						<!-- /single causes -->
 
-						<!-- single causes -->
-						<div class="widget-causes">
-							<a href="#">
-								<div class="widget-img">
-									<img src="./img/widget-2.jpg" alt="">
-								</div>
-								<div class="widget-content">
-									Vix fuisset tibique facilisis cu. Justo accusata ius at
-									<div class="causes-progress">
-										<div class="causes-progress-bar">
-											<div style="width: 75%;"></div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
-							</div>
-						</div>
-						<!-- /single causes -->
 
-						<!-- single causes -->
-						<div class="widget-causes">
-							<a href="#">
-								<div class="widget-img">
-									<img src="./img/widget-3.jpg" alt="">
-								</div>
-								<div class="widget-content">
-									Possit nostro aeterno eu vis, ut cum quem reque
-									<div class="causes-progress">
-										<div class="causes-progress-bar">
-											<div style="width: 53%;"></div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<div>
-								<span class="causes-raised">Raised: <strong>52.000$</strong></span> -
-								<span class="causes-goal">Goal: <strong>90.000$</strong></span>
-							</div>
-						</div>
-						<!-- /single causes -->
 					</div>
 					<!-- causes widget -->
 				</aside>
@@ -279,7 +232,7 @@
             <p>Login/Register to comment on the post...</p><hr>
             @endif
 
-          
+
             <!-- Displaying all the comments and its reply-->
             <div class="comments-container">
                 <ul id="comments-list" class="comments-list">
@@ -367,4 +320,3 @@
         </div><!-- container division tag ends -->
     </div><!-- responses division tag ends -->
 @endsection
-

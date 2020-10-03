@@ -83,10 +83,10 @@
 							<li><a  class="dropdown-item" href="/field_work">Field Work Gallary</a></li>
 						</ul>
 					</li>
-					<li><a href="/blog">Education</a>
+					<li class="has-dropdown"><a href="/blog">Education</a>
 						<ul class="dropdown">
-							<li><a  class="dropdown-item" href="blog.html">Category</a></li>
-							<li><a  class="dropdown-item" href="single-blog.html">Category</a></li>
+							<li><a  class="dropdown-item" href="{{ asset('/education.pdf') }}">Diabetes Education</a></li>
+							<li><a  class="dropdown-item" href="/blog">View Blogs</a></li>
 						</ul>
 					</li>
 					
