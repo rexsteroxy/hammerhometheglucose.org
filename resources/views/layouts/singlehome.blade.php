@@ -147,11 +147,11 @@
 						<div class="footer-logo">
 							<a class="logo" href="#"><img src="./himg/logo.png" alt=""></a>
 						</div>
-						<h5>Hammer Home The Glucose is run by a team of highly skilled,
+						<p style="font-weight: bold;">Hammer Home The Glucose is run by a team of highly skilled,
                          dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.
                           The team is headed by Joakin C. Nwaokoro,
 						   a well trained and Certified Diabetes Educator with other professionals serving as volunteers 
-						   in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</h5>
+						   in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</p>
 						<ul class="footer-contact">
 							<li><i class="fa fa-map-marker"></i>Address</li>
 							<li><i class="fa fa-phone"></i>PhoneNumber</li>
@@ -181,7 +181,7 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<h3 class="footer-title">Newsletter</h3>
-						<p>Subscribe To Our Monthly Newsletter And Events</p>
+						<p style="font-weight: bold;">Subscribe To Our Monthly Newsletter And Events</p>
 						<form class="footer-newsletter">
 							<input class="input" type="email" placeholder="Enter your email">
 							<button class="primary-button">Subscribe</button>
@@ -189,9 +189,8 @@
 						<ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 						</ul>
 					</div>
 				</div>

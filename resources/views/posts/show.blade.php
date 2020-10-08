@@ -61,7 +61,7 @@
 								<li>{{count($comments)}} Comments</li>
 							</ul>
 							<!-- /article meta -->
-                            <p>{!! $post->body !!}</p>
+                            <p style="font-weight: bold;">{!! $post->body !!}</p>
 
 						</div>
 						<!-- /article content -->
@@ -229,7 +229,7 @@
             </div>
             <hr>
             @else
-            <p>Login/Register to comment on the post...</p><hr>
+            <p style="font-weight: bold;">Login/Register to comment on the post...</p><hr>
             @endif
 
 
