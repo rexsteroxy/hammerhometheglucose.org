@@ -135,8 +135,7 @@
             @yield('responses')
 
 
-
-		<!-- FOOTER -->
+<!-- FOOTER -->
 <footer id="footer" class="section">
 		<!-- container -->
 		<div class="container">
@@ -146,15 +145,17 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<div class="footer-logo">
-							<a class="logo" href="#"><img src="{{ asset('./himg/logo.png') }}" alt=""></a>
+							<a class="logo" href="#"><img src="./himg/logo.png" alt=""></a>
 						</div>
-						<p>Hammer Home The Glucose is run by a team of highly skilled,
+						<h5>Hammer Home The Glucose is run by a team of highly skilled,
                          dedicated and God-fearing individuals who are  driven with the passion to save the people afflicted with Diabetes.
-                          The team is headed by Joakin C. Nwaokoro, a well trained and Certified Diabetes Educator with other professionals serving as volunteers in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</p>
+                          The team is headed by Joakin C. Nwaokoro,
+						   a well trained and Certified Diabetes Educator with other professionals serving as volunteers 
+						   in different areas such as dieticians, nurses, educators, physiotherapists, endocrinologists.</h5>
 						<ul class="footer-contact">
-							<li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
-							<li><i class="fa fa-phone"></i> 607-279-9246</li>
-							<li><i class="fa fa-envelope"></i> <a href="#">Charity@email.com</a></li>
+							<li><i class="fa fa-map-marker"></i>Address</li>
+							<li><i class="fa fa-phone"></i>PhoneNumber</li>
+							<li><i class="fa fa-envelope"></i> <a href="#">hammerhometheglucose@email.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -163,7 +164,7 @@
 				<!-- footer galery -->
 				<div class="col-md-4">
 					<div class="footer">
-						<h3 class="footer-title">Galery</h3>
+						<h3 class="footer-title">Gallery</h3>
 						<ul class="footer-galery">
 							<li><a href="#"><img src="{{ asset('./himg/rev_sister.jpg') }}" alt=""></a></li>
 							<li><a href="#"><img src="{{ asset('./himg/post-5.png') }}" alt=""></a></li>
@@ -205,10 +206,10 @@
 			<div id="footer-bottom" class="row">
 				<div class="col-md-6 col-md-push-6">
 					<ul class="footer-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/">About Us</a></li>
+						<li><a href="/contact">Contact Us</a></li>
+						<li><a href="/blog">Blog</a></li>
 						
 					</ul>
 				</div>

@@ -12,11 +12,11 @@
 			<div class="col-md-5">
 				<div class="section-title">
 					<h2 class="title">WELCOME TO OUR WEB PORTAL</h2>
-					<p class="">Hammer Home The Glucose® is a non-governmental body/agency that is located in Owerri,
-						Imo State, Southeastern Nigeria.</p>
+					<h4>Hammer Home The Glucose® is a non-governmental body/agency that is located in Owerri,
+						Imo State, Southeastern Nigeria.</h4>
 				</div>
 				<div class="about-content">
-					<p>
+					<h6 style="font-size:18px">
 						The agency is into free screening of diabetes and blood pressure especially people in remote
 						areas where access to medical care is very limited. <br>
 						Hammer Home The Glucose® has been into this for over five (5) years now and has visited many
@@ -31,7 +31,7 @@
 						spirited that are part of the Agency. These persons serve as volunteers in different areas such
 						as dieticians,
 						nurse educators, physiotherapists, endocrinologists, and still expecting more concerned
-						professionals to be involved. </p>
+						professionals to be involved. </h6>
 					<a href="/contact" class="primary-button">Contact Us</a>
 				</div>
 			</div>
@@ -64,13 +64,12 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="section-title text-center">
 					<h2 class="title">WHO WILL SEND US</h2>
-					<p class="">Hammer Home The Glucose is asking people to send us to different places in Nigeria to
+					<h5>Hammer Home The Glucose is asking people to send us to different places in Nigeria to
 						screen people
 						for diabetes and blood pressure and treat those who are already affected with diabetes. We are
 						people committed to alleviating
 						the disease burden and offering a new hope to people affected and afflicted with diabetes. We
-						are asking state governments to send
-						us, individuals, organisations, politicians and groups to send us to different locations and
+						are asking state governments to send us, individuals, organisations, politicians and groups to send us to different locations and
 						zones in Nigeria. <br>
 
 						This is the time to send us, the havoc diabetes has caused and still causing in our society
@@ -97,7 +96,7 @@
 						Thank you <br><br>
 
 						Nwaokoro Joakin Chidozie <br>
-						President, Hammer Home The Glucose.</p>
+						President, Hammer Home The Glucose.</h5>
 				</div>
 			</div>
 			<!-- section title -->
@@ -116,14 +115,14 @@
 					</div>
 					<div class="causes-content">
 						<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-						<p>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is
+						<h5>Hammer Home the Glucose®is a non-governmental and non-profit charitable organization that is
 							totally committed to screening diabetics with the view of providing them with free insulin
 							and other related drugs. These drugs are strictly provided to people with diabetes free of
 							charge. This organization equally provides free diabetes education to the general public.
 							Therefore, Hammer Home The Glucose® envisions a Nigeria where diabetics will not die due to
 							lack of insulin or smacks of improper management
 
-							.</p>
+							.</h5>
 
 					</div>
 				</div>
@@ -152,12 +151,12 @@
 						</div> -->
 					<div class="causes-content">
 						<h3><a href="single-cause.html">Hammer Home the Glucose®</a></h3>
-						<p>Do you know your glucose level? Are you from a family of people with diabetes? Are you over
+						<h5>Do you know your glucose level? Are you from a family of people with diabetes? Are you over
 							35 years of age? Were you told that you have high blood sugar when you were pregnant? Do you
 							suffer from frequent urination, frequent thirst, fatigue and sometimes blurry vision? Act
 							now to avoid being diabetic!!! For free screening of diabetes,
 							blood pressure and free distribution of insulin to people with diabetes, contact Hammer Home
-							the Glucose® at the addresses on this site.</p>
+							the Glucose® at the addresses on this site.</h5>
 					</div>
 				</div>
 			</div>
@@ -174,8 +173,8 @@
 					</div>
 					<div class="causes-content">
 						<h4><a href="">Hammer Home the Glucose®</a></h4>
-						<p>Hammer Home the Glucose® envisions a Nigeria where diabetics will not die due to lack of
-							insulin or smacks of improper management..</p>
+						<h5>Hammer Home the Glucose® envisions a Nigeria where diabetics will not die due to lack of
+							insulin or smacks of improper management..</h5>
 					</div>
 				</div>
 			</div>
